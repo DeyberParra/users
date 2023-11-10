@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Users</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- menu -->
+    <string name="users">Usuarios</string>
+    <string name="states">Estados</string>
+    <string name="mayors">Municipio/Delegacion</string>
+
+    <!-- form -->
+    <string name="empty_data">Es necesario llenar el formulario </string>
+
+    <!-- Admin user fragment -->
+    <string name="user_title_fragment">Usuarios</string>
+    <string name="state_title_fragment">Estados</string>
+    <string name="mayor_title_fragment">Alcaldias/Municipios</string>
+
+    <string name="add_states_title_fragment"> Agregar Estado</string>
+    <string name="update_states_title_fragment"> Actualizar Estado</string>
+    <string name="add_states_name">Nombre Estado : Quintana Roo ..</string>
+    <string name="add_mayor_title_fragment"> Agregar Alcaldia / Municipio</string>
+    <string name="update_mayor_title_fragment"> Actualizar Alcaldia / Municipio</string>
+    <string name="add_mayor_name">Alcaldia / Municipio</string>
+    <string name="select_state_mayor_fragment">Seleccione un Estado</string>
+
+    <string name="add_user_title_fragment"> Agregar Usuario</string>
+    <string name="update_user_title_fragment"> Actualizar Usuario</string>
+    <string name="user_name">Nombre</string>
+    <string name="user_age">Edad</string>
+    <string name="user_street">Domicilio calle</string>
+    <string name="user_exterior_number">Numero exterior</string>
+    <string name="user_interior_number">Numero interior</string>
+    <string name="user_neighborhood">Colonia</string>
+    <string name="user_state">Estado</string>
+    <string name="user_mayor">Alcaldia/Municipio</string>
+    <string name="user_title_selection_mayor">Seleccione un(a) Alcaldia / Municipio</string>
+    <string name="user_title_selection_state">Seleccione un Estado</string>
+    <string name="user_image">Seleccionar Foto</string>
+
+    <string name="permission_title">Permiso necesario</string>
+    <string name="permission_message">Necesitamos acceder a su galería para seleccionar una imagen</string>
+    <string name="permission_ok">Permitir</string>
+    <string name="permission_cancel">Cancelar</string>
+
+    <string name="btn_ok">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+
+    >
+</resources>

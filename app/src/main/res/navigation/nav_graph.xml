@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usersFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.appwesome.users.ui.view.fragments.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" >
+        <action
+            android:id="@+id/action_usersFragment_to_stateFragment"
+            app:destination="@id/stateFragment" />
+        <action
+            android:id="@+id/action_usersFragment_to_mayorFragment"
+            app:destination="@id/mayorFragment" />
+        <action
+            android:id="@+id/action_usersFragment_to_upsertUserDialog"
+            app:destination="@id/upsertUserDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/stateFragment"
+        android:name="com.appwesome.users.ui.view.fragments.StateFragment"
+        android:label="fragment_state"
+        tools:layout="@layout/fragment_state" />
+    <fragment
+        android:id="@+id/mayorFragment"
+        android:name="com.appwesome.users.ui.view.fragments.MayorFragment"
+        android:label="fragment_mayor"
+        tools:layout="@layout/fragment_mayor" >
+        <action
+            android:id="@+id/action_mayorFragment_to_addMayorDialog"
+            app:destination="@id/addMayorDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMayorDialog"
+        android:name="com.appwesome.users.ui.view.dialogfragments.AddMayorDialog"
+        android:label="AddMayorDialog" />
+    <fragment
+        android:id="@+id/upsertUserDialog"
+        android:name="com.appwesome.users.ui.view.dialogfragments.UpsertUserDialog"
+        android:label="UpsertUserDialog" />
+</navigation>
